@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+}
+.element {
+  width: 20%;
+  height: 100px;
+  background: black;
+  position: absolute;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.green {
+  background: green;
+}
+.orange {
+  background: orange;
+}
+.purple {
+  background: purple;
+}
+.yellow {
+  background: yellow;
+}
+.white {
+  background: white;
+}
+
+.test00{
+  position:absolute;
+  top:50%;
+}
+body{
+  background:black;
+}
