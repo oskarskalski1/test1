@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calendar</title>
+</head>
+<body>
+    <main class="page-main">    
+        <div class="page-main__calendar">
+            <div class="calendar__current-day">
+                <h1 class="current-day__day-of-month">
+                    
+                </h1>
+                <h2 class="current-day__date">
+                    
+                </h2>
+                <div class="current-day__todos">
+                    <h3 class="todos__heading">
+                        What do you have to do?
+                    </h3>
+                    <div class="todos__tasks">
+                        
+                    </div>
+                </div>
+                <button class="current-day__tasks-settings">
+                    <span class="tasks-settings__transform-lines"></span>
+                </button>
+            </div>
+            <div class="calendar__container">
+                <div class="container__chooser-divs">
+                    <div class="chooser-divs__choose-div">
+                        <button class="chooser-div__btn arrow-btn left-direction-arrow"></button>
+                        <div class="div__choose-month">
+                            <select name="months" id="choose-month__select" class="select">
+                                <option value="1">January</option>
+                                <option value="2">February </option>
+                                <option value="3">Marc</option>
+                                <option value="4">April</option>
+                                <option value="5">Mai</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                        </div>
+                        <div class="chooser-divs-year">
+                            <select name="years" id="choose-year__select" class="select">
+            
+                            </select>
+                        </div>
+                        <button class="chooser-div__btn arrow-btn right-direction-arrow"></button>
+                    </div>
+                    <div class="calendar__day-view">
+                    </div>
+                </div>
+                <div class="calendar__days-of-week">
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Mon
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Tue
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Wed
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Thu
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Fri
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Sat
+                        </h2>
+                    </section>
+                    <section class="days-of-week__name">
+                        <h2 class="name__heading">
+                            Sun
+                        </h2>
+                    </section>
+                </div>
+                <div class="calendar__days-of-month">
+        
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="generateYearsOptions.js"></script>
+    <script type="text/javascript" src="generateCalendar.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="currentDateSelect.js"></script>
+    <script type="text/javascript" src="inspectDay.js"></script>
+    <script type="text/javascript" src="retrieveDataFromLocalStorage.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
